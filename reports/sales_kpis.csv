@@ -1,0 +1,12 @@
+metric,value,description
+clean_sales_rows,147225.0,Number of cleaned sales lines
+unique_orders,74970.0,Distinct order IDs
+unique_known_customers,17720.0,Distinct non-missing customer IDs
+missing_customer_id_rows,1087.0,Sales lines without customer attribution
+missing_customer_id_pct,0.74,Percentage of sales lines with unknown customers
+total_net_sales_kes,3231342563.01,Sales revenue after discounts
+total_gross_sales_kes,3419904223.63,Sales value before discounts
+total_discount_amount_kes,188561656.98,Discount amount calculated from line values
+average_sales_line_value_kes,21948.33,Mean net value of an individual sales line
+average_order_value_kes,43101.81,Total net sales divided by distinct orders
+total_units_sold,525600.0,Total units sold across all sales lines

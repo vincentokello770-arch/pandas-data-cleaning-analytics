@@ -1,0 +1,14 @@
+,value
+input_rows,150060.0
+exact_duplicates_removed,60.0
+rows_after_deduplication,150000.0
+invalid_rows_rejected,2775.0
+clean_rows,147225.0
+retention_rate_pct,98.15
+raw_missing_cells_after_deduplication,8922.0
+clean_missing_cells,1087.0
+invalid_date,1256.0
+invalid_quantity,2775.0
+invalid_price,1866.0
+invalid_discount,649.0
+missing_required_field,0.0

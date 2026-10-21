@@ -1,0 +1,5 @@
+payment_method,sales_lines,unique_orders,net_sales_kes,revenue_share_pct
+Cash,36916,18787,815938320.83,25.25
+Bank Transfer,36780,18750,807580544.32,24.99
+Card,36777,18730,805874048.49,24.94
+M-Pesa,36752,18703,801949649.37,24.82

@@ -1,0 +1,31 @@
+﻿# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Local environment and editor files
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+
+# Backups and temporary files
+backups/
+*.bak
+
+# Generated datasets; recreate using the pipeline
+data/raw/
+data/processed/
+
+# Detailed generated report; recreate using the analytics script
+reports/order_level_analysis.csv
+
+# Local troubleshooting utility
+fix_validation.py
+
+# Local troubleshooting utility
+fix_validation.py
