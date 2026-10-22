@@ -336,6 +336,15 @@ The pipeline produces analytical and quality-assurance artifacts, including:
 - Static charts for sales trends and category, payment, and county performance.
 
 The dashboard adds interactive charts, filtered transaction details, executive insights, and CSV export.
+## Dashboard Screenshots
+
+### Executive Overview
+
+![Dashboard overview](docs/images/dashboard-overview.png)
+
+### Analytics and Trends
+
+![Dashboard analytics](docs/images/dashboard-analytics.png)
 
 ## Data Governance and Limitations
 
