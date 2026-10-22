@@ -1,5 +1,9 @@
 ﻿# Kenyan Retail Data Quality & Analytics Dashboard
 
+**Live Dashboard:** https://pandas-data-cleaning-analytics-8hevup595lobny3fxqb3vk.streamlit.app/
+
+**GitHub Repository:** https://github.com/vincentokello770-arch/pandas-data-cleaning-analytics
+
 **Author:** Vincent Kenyatta  
 **Project type:** Data Cleaning, Exploratory Data Analysis & Business Intelligence  
 **Technologies:** Python, Pandas, NumPy, Matplotlib, Streamlit, Plotly, pytest, Git and GitHub
@@ -354,7 +358,8 @@ The dashboard adds interactive charts, filtered transaction details, executive i
 - Net sales and average order value depend on the cleaning, calculation, and aggregation rules implemented in the pipeline.
 - Order counts use distinct order IDs, avoiding the assumption that every order line represents a separate order.
 - Data-validation checks test defined conditions but cannot guarantee that every possible business issue has been detected.
-- The dashboard is currently a local application; it is not automatically deployed to a public hosting service.
+- The dashboard is publicly deployed on Streamlit Community Cloud and uses a 5,000-row synthetic demo dataset.
+- The full 147,225-row cleaned dataset remains local and is excluded from Git; the app automatically uses it when available locally and falls back to the demo dataset in the cloud.
 - Generated data must be recreated before running the dashboard in a fresh environment.
 
 ## Future Improvements
@@ -366,7 +371,6 @@ Planned enhancements include:
 - Load cleaned data into SQLite and PostgreSQL.
 - Build a complementary Power BI dashboard.
 - Add GitHub Actions for automated testing.
-- Deploy the interactive dashboard to a suitable hosting platform.
 - Add documented analytical assumptions and business recommendations.
 - Compare alternative cleaning rules and measure their effects on reported KPIs.
 
