@@ -11,7 +11,11 @@ import streamlit as st
 # --------------------------------------------------
 
 ROOT = Path(__file__).resolve().parents[1]
-DATA_FILE = ROOT / "data" / "processed" / "clean_sales.csv"
+FULL_DATA_FILE = ROOT / "data" / "processed" / "clean_sales.csv"
+DEMO_DATA_FILE = ROOT / "dashboard" / "demo_data" / "clean_sales_demo.csv"
+
+# Use the full dataset locally; fall back to the demo dataset in the cloud.
+DATA_FILE = FULL_DATA_FILE if FULL_DATA_FILE.exists() else DEMO_DATA_FILE
 
 st.set_page_config(
     page_title="Kenyan Retail Sales Intelligence",
