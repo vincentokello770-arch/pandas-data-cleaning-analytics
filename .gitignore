@@ -31,3 +31,5 @@ fix_validation.py
 fix_validation.py
 
 dashboard/app_backup.py
+
+data/analytics/
